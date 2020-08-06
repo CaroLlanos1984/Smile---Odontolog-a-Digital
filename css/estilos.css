@@ -1,0 +1,186 @@
+.navbar {
+  background-color: white !important; }
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  height: 700px;
+  opacity: 90%; }
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 32px; }
+
+.banner p {
+  font-size: 30px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); }
+
+section {
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px; }
+
+.div1 {
+  padding: 30px;
+  height: 500px;
+  background-image: radial-gradient(#a7a7ca, lightblue); }
+
+.div2 {
+  padding: 30px;
+  height: 500px;
+  background-color: white; }
+
+.div3 {
+  padding: 30px;
+  height: 500px;
+  background-color: lightsteelblue; }
+
+.fondo {
+  background-image: url(img/fondocontacto.png);
+  background-size: cover;
+  opacity: 40px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 12px; }
+
+.contacto {
+  background-color: white;
+  opacity: 60%;
+  border-radius: 12px; }
+
+.ortinvisible {
+  background-image: url(img/invisalign.gif);
+  background-size: cover;
+  min-height: 400px;
+  opacity: 100%;
+  border: 10px solid white; }
+
+.ortopedia {
+  background-image: url(img/ortopedia.gif);
+  background-size: cover;
+  min-height: 400px;
+  opacity: 100%;
+  border: 10px solid white; }
+
+.implantes {
+  background-image: url(img/implantes.gif);
+  background-size: cover;
+  opacity: 100%;
+  min-height: 400px;
+  border: 10px solid white; }
+
+.protesis {
+  background-image: url(img/protesis.gif);
+  background-size: cover;
+  opacity: 100%;
+  min-height: 400px;
+  border: 10px solid white; }
+
+.endodoncia {
+  background-image: url(img/endodoncia.gif);
+  background-size: cover;
+  opacity: 100%;
+  min-height: 400px;
+  border: 10px solid white; }
+
+.blanqueamiento {
+  background-image: url(img/blanqueamiento.gif);
+  background-size: cover;
+  opacity: 100%;
+  min-height: 400px;
+  border: 10px solid white; }
+
+.placas {
+  background-image: url(img/placamio.gif);
+  background-size: cover;
+  opacity: 100%;
+  min-height: 400px;
+  border: 10px solid white; }
+
+.protectores {
+  background-image: url(img/protector.gif);
+  background-size: cover;
+  opacity: 100%;
+  min-height: 400px;
+  border: 10px solid white; }
+
+h3 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold; }
+
+.fontendo {
+  color: gray; }
+
+ul {
+  list-style-type: none; }
+
+ul li {
+  display: inline;
+  color: black;
+  padding: 25px;
+  align-items: center; }
+
+footer {
+  height: 200px; }
+
+footer nav {
+  padding: 20px; }
+
+footer ul li {
+  display: inline; }
+
+.redessociales a :hover {
+  transform: scale(1.5); }
+
+/* NOSOTROS ----------*/
+.fondonosotros {
+  background-image: url(img/fondonosotros.png);
+  background-size: cover;
+  opacity: 80%;
+  border-radius: 12px; }
+
+.carolina {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding: 30px; }
+
+.carolina :hover {
+  font-weight: bolder; }
+
+.caro {
+  background-color: transparent;
+  min-height: 250px; }
+
+.nombrecaro {
+  color: #ff8800;
+  font-weight: bold; }
+
+.foto1 {
+  background-color: lightgray; }
+
+.matias {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding: 30px; }
+
+.matias :hover {
+  font-weight: bolder; }
+
+.mati {
+  background-color: transparent;
+  min-height: 250px; }
+
+.nombremati {
+  color: #ff8800;
+  font-weight: bold; }
+
+.foto2 {
+  background-color: lightgray; }
