@@ -20,15 +20,24 @@
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); }
 
+section .div1 {
+  padding: 30px;
+  height: 500px;
+  background-color: whitesmoke; }
+  section .div1 h2 {
+    text-align: center;
+    padding: 20px; }
+  section .div1 p {
+    text-align: center;
+    font-size: 32px; }
+
+section .div2 {
+  align-content: center; }
+
 section {
   padding: 30px;
   margin-top: 20px;
   margin-bottom: 50px; }
-
-.div1 {
-  padding: 30px;
-  height: 500px;
-  background-image: radial-gradient(#a7a7ca, lightblue); }
 
 .div2 {
   padding: 30px;
