@@ -2,6 +2,7 @@
     background-color: white !important;
     
 }
+ //INDEX-----------------------
 
 .banner {
     background-size: cover;
@@ -30,15 +31,31 @@
   }
 
 section{
+    .div1{
+        padding: 30px;
+        height: 500px;
+        background-color: whitesmoke;
+
+        h2{
+            text-align: center;
+            padding: 20px;
+        }
+        
+        p{
+            text-align: center;
+            font-size: 32px;
+        }
+    }
+    .div2{
+        align-content: center;
+
+    }
+}
+
+section{
     padding: 30px;
     margin-top: 20px;
     margin-bottom: 50px;
-}
-
-.div1{
-    padding: 30px;
-    height: 500px;
-    background-image: radial-gradient(rgb(167, 167, 202), lightblue)
 }
 
 .div2{
