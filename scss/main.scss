@@ -1,3 +1,8 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+
 .navbar{
     background-color: white !important;
     
@@ -7,6 +12,7 @@
 .banner {
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     padding:30px;
     height: 700px;
     opacity: 90%;
@@ -31,6 +37,9 @@
   }
 
 section{
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     .div1{
         padding: 30px;
         height: 500px;
@@ -47,56 +56,62 @@ section{
         }
     }
     .div2{
-        align-content: center;
-
+        height:400px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .div3{
+        
+        height:700px;
+        background-color:;
     }
 }
 
-section{
-    padding: 30px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+div.card-deck{
+    padding: 100px;
 }
 
-.div2{
-    padding: 30px;
-    height: 500px;
-    background-color: white;
-}
-
-.div3{
-    padding: 30px;
-    height: 500px;
-    background-color: lightsteelblue;
-}
 
 //SECTION-------------
 
-
-.fondo{
-    background-image: url(img/fondocontacto.png);
+    .fondo{
     background-size: cover;
     opacity:40px;
     margin-bottom: 150px;
     display: flex;
     justify-content: center;
     align-content: center;
-    border-radius: 12px;
-}
+    border-radius: 12px;}
+    
+    .contacto{
+        background-color: white;
+        opacity: 60%;
+        border-radius: 12px;
+        justify-content: center;
+    }
 
-    
-.contacto{
-    background-color: white;
-    opacity: 60%;
-    border-radius: 12px;
-}
-    
+    .fieldset{
+       text-align: center;
+        
+        label{
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        
+            p{
+            font-weight: bold;
+        }
+        
+    }
+        
+
 
 //TRATAMIENTOS---------------------------- 
 
 
 .ortinvisible{
-    background-image: url(img/invisalign.gif);
+    
     background-size: cover;
     min-height: 400px;
     opacity: 100%;
@@ -106,7 +121,7 @@ section{
 
 
 .ortopedia{
-    background-image: url(img/ortopedia.gif);
+    
     background-size: cover;
     min-height: 400px;
     opacity: 100%;
@@ -114,7 +129,7 @@ section{
 }
 
 .implantes{
-    background-image: url(img/implantes.gif);
+    
     background-size: cover;
     opacity: 100%;
     min-height: 400px;
@@ -122,7 +137,7 @@ section{
     
 }
 .protesis{
-    background-image: url(img/protesis.gif);
+    
     background-size: cover;
     opacity: 100%;
     min-height: 400px;
@@ -131,7 +146,7 @@ section{
 }
 
 .endodoncia{
-    background-image: url(img/endodoncia.gif);
+    
     background-size: cover;
     opacity: 100%;
     min-height: 400px;
@@ -140,7 +155,7 @@ section{
 }
 
 .blanqueamiento{
-    background-image: url(img/blanqueamiento.gif);
+    
     background-size: cover;
     opacity: 100%;
     min-height: 400px;
@@ -148,7 +163,7 @@ section{
 }
 
 .placas{
-    background-image: url(img/placamio.gif);
+    
     background-size: cover;
     opacity: 100%;
     min-height: 400px;
@@ -156,7 +171,7 @@ section{
 }
 
 .protectores{
-    background-image: url(img/protector.gif);
+    
     background-size: cover;
     opacity: 100%;
     min-height: 400px;
@@ -187,10 +202,31 @@ ul li{
     align-items: center;
 }
 
+//CONTACTO-----------------------
+
+section.mapa{
+    display: flex;
+
+
+    iframe .mapa{
+        margin: 30px;
+        display: flex;
+        
+        
+    }
+
+}
+
+
+
+
+
+//FOOTER--------------------------
 
 
 footer{
-    height: 200px;
+    min-height: 250px;
+    background-color: whitesmoke;
 }
 
 
@@ -206,11 +242,14 @@ footer ul li {
      transform: scale(1.5);
 }
 
+.card-header{
+    background-color: lightsteelblue;
+
+}
 /* NOSOTROS ----------*/
 
 .fondonosotros{
-    background-image: url(img/fondonosotros.png);
-    background-size: cover;
+     background-size: cover;
     opacity: 80%;
     border-radius: 12px;
 }
