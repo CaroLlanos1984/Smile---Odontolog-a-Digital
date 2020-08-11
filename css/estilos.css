@@ -46,8 +46,8 @@ section {
     background-position: center;
     background-attachment: fixed; }
   section .div3 {
-    height: 700px;
-    background-color: lightslategray; }
+    min-height: 600px;
+    background-color: whitesmoke; }
 
 div.card-deck {
   padding: 100px; }
@@ -139,6 +139,12 @@ ul li {
   color: black;
   padding: 25px;
   align-items: center; }
+
+section.mapa {
+  display: flex; }
+  section.mapa iframe .mapa {
+    margin: 30px;
+    display: flex; }
 
 footer {
   min-height: 250px;
